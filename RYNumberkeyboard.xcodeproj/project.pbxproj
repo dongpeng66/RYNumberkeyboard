@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2BA1A461ED41BAD00CBEAF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A451ED41BAD00CBEAF4 /* main.m */; };
+		E2BA1A491ED41BAD00CBEAF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A481ED41BAD00CBEAF4 /* AppDelegate.m */; };
+		E2BA1A4C1ED41BAD00CBEAF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A4B1ED41BAD00CBEAF4 /* ViewController.m */; };
+		E2BA1A4F1ED41BAD00CBEAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BA1A4D1ED41BAD00CBEAF4 /* Main.storyboard */; };
+		E2BA1A521ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A501ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodeld */; };
+		E2BA1A541ED41BAD00CBEAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BA1A531ED41BAD00CBEAF4 /* Assets.xcassets */; };
+		E2BA1A571ED41BAD00CBEAF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BA1A551ED41BAD00CBEAF4 /* LaunchScreen.storyboard */; };
+		E2BA1A621ED41BAD00CBEAF4 /* RYNumberkeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A611ED41BAD00CBEAF4 /* RYNumberkeyboardTests.m */; };
+		E2BA1A6D1ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A6C1ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.m */; };
+		E2BA1A811ED41BC800CBEAF4 /* RYNumbeKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2BA1A7B1ED41BC800CBEAF4 /* RYNumbeKeyboard.bundle */; };
+		E2BA1A821ED41BC800CBEAF4 /* RYNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A7D1ED41BC800CBEAF4 /* RYNumberKeyboard.m */; };
+		E2BA1A831ED41BC800CBEAF4 /* RYNumberKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BA1A7E1ED41BC800CBEAF4 /* RYNumberKeyboard.xib */; };
+		E2BA1A841ED41BC800CBEAF4 /* UITextField+RYNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A801ED41BC800CBEAF4 /* UITextField+RYNumberKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2BA1A5E1ED41BAD00CBEAF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BA1A391ED41BAD00CBEAF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BA1A401ED41BAD00CBEAF4;
+			remoteInfo = RYNumberkeyboard;
+		};
+		E2BA1A691ED41BAD00CBEAF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BA1A391ED41BAD00CBEAF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BA1A401ED41BAD00CBEAF4;
+			remoteInfo = RYNumberkeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2BA1A411ED41BAD00CBEAF4 /* RYNumberkeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYNumberkeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BA1A451ED41BAD00CBEAF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2BA1A471ED41BAD00CBEAF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2BA1A481ED41BAD00CBEAF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2BA1A4A1ED41BAD00CBEAF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2BA1A4B1ED41BAD00CBEAF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2BA1A4E1ED41BAD00CBEAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2BA1A511ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RYNumberkeyboard.xcdatamodel; sourceTree = "<group>"; };
+		E2BA1A531ED41BAD00CBEAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BA1A561ED41BAD00CBEAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2BA1A581ED41BAD00CBEAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BA1A5D1ED41BAD00CBEAF4 /* RYNumberkeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYNumberkeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BA1A611ED41BAD00CBEAF4 /* RYNumberkeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYNumberkeyboardTests.m; sourceTree = "<group>"; };
+		E2BA1A631ED41BAD00CBEAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BA1A681ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYNumberkeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BA1A6C1ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYNumberkeyboardUITests.m; sourceTree = "<group>"; };
+		E2BA1A6E1ED41BAD00CBEAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BA1A7B1ED41BC800CBEAF4 /* RYNumbeKeyboard.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RYNumbeKeyboard.bundle; sourceTree = "<group>"; };
+		E2BA1A7C1ED41BC800CBEAF4 /* RYNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNumberKeyboard.h; sourceTree = "<group>"; };
+		E2BA1A7D1ED41BC800CBEAF4 /* RYNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNumberKeyboard.m; sourceTree = "<group>"; };
+		E2BA1A7E1ED41BC800CBEAF4 /* RYNumberKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYNumberKeyboard.xib; sourceTree = "<group>"; };
+		E2BA1A7F1ED41BC800CBEAF4 /* UITextField+RYNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+RYNumberKeyboard.h"; sourceTree = "<group>"; };
+		E2BA1A801ED41BC800CBEAF4 /* UITextField+RYNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RYNumberKeyboard.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2BA1A3E1ED41BAD00CBEAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA1A5A1ED41BAD00CBEAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA1A651ED41BAD00CBEAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2BA1A381ED41BAD00CBEAF4 = {
+			isa = PBXGroup;
+			children = (
+				E2BA1A431ED41BAD00CBEAF4 /* RYNumberkeyboard */,
+				E2BA1A601ED41BAD00CBEAF4 /* RYNumberkeyboardTests */,
+				E2BA1A6B1ED41BAD00CBEAF4 /* RYNumberkeyboardUITests */,
+				E2BA1A421ED41BAD00CBEAF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2BA1A421ED41BAD00CBEAF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA1A411ED41BAD00CBEAF4 /* RYNumberkeyboard.app */,
+				E2BA1A5D1ED41BAD00CBEAF4 /* RYNumberkeyboardTests.xctest */,
+				E2BA1A681ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2BA1A431ED41BAD00CBEAF4 /* RYNumberkeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA1A7A1ED41BC800CBEAF4 /* RYNumberkeyboard */,
+				E2BA1A471ED41BAD00CBEAF4 /* AppDelegate.h */,
+				E2BA1A481ED41BAD00CBEAF4 /* AppDelegate.m */,
+				E2BA1A4A1ED41BAD00CBEAF4 /* ViewController.h */,
+				E2BA1A4B1ED41BAD00CBEAF4 /* ViewController.m */,
+				E2BA1A4D1ED41BAD00CBEAF4 /* Main.storyboard */,
+				E2BA1A531ED41BAD00CBEAF4 /* Assets.xcassets */,
+				E2BA1A551ED41BAD00CBEAF4 /* LaunchScreen.storyboard */,
+				E2BA1A581ED41BAD00CBEAF4 /* Info.plist */,
+				E2BA1A501ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodeld */,
+				E2BA1A441ED41BAD00CBEAF4 /* Supporting Files */,
+			);
+			path = RYNumberkeyboard;
+			sourceTree = "<group>";
+		};
+		E2BA1A441ED41BAD00CBEAF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA1A451ED41BAD00CBEAF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2BA1A601ED41BAD00CBEAF4 /* RYNumberkeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA1A611ED41BAD00CBEAF4 /* RYNumberkeyboardTests.m */,
+				E2BA1A631ED41BAD00CBEAF4 /* Info.plist */,
+			);
+			path = RYNumberkeyboardTests;
+			sourceTree = "<group>";
+		};
+		E2BA1A6B1ED41BAD00CBEAF4 /* RYNumberkeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA1A6C1ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.m */,
+				E2BA1A6E1ED41BAD00CBEAF4 /* Info.plist */,
+			);
+			path = RYNumberkeyboardUITests;
+			sourceTree = "<group>";
+		};
+		E2BA1A7A1ED41BC800CBEAF4 /* RYNumberkeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E2BA1A7B1ED41BC800CBEAF4 /* RYNumbeKeyboard.bundle */,
+				E2BA1A7C1ED41BC800CBEAF4 /* RYNumberKeyboard.h */,
+				E2BA1A7D1ED41BC800CBEAF4 /* RYNumberKeyboard.m */,
+				E2BA1A7E1ED41BC800CBEAF4 /* RYNumberKeyboard.xib */,
+				E2BA1A7F1ED41BC800CBEAF4 /* UITextField+RYNumberKeyboard.h */,
+				E2BA1A801ED41BC800CBEAF4 /* UITextField+RYNumberKeyboard.m */,
+			);
+			path = RYNumberkeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BA1A401ED41BAD00CBEAF4 /* RYNumberkeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BA1A711ED41BAD00CBEAF4 /* Build configuration list for PBXNativeTarget "RYNumberkeyboard" */;
+			buildPhases = (
+				E2BA1A3D1ED41BAD00CBEAF4 /* Sources */,
+				E2BA1A3E1ED41BAD00CBEAF4 /* Frameworks */,
+				E2BA1A3F1ED41BAD00CBEAF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYNumberkeyboard;
+			productName = RYNumberkeyboard;
+			productReference = E2BA1A411ED41BAD00CBEAF4 /* RYNumberkeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2BA1A5C1ED41BAD00CBEAF4 /* RYNumberkeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BA1A741ED41BAD00CBEAF4 /* Build configuration list for PBXNativeTarget "RYNumberkeyboardTests" */;
+			buildPhases = (
+				E2BA1A591ED41BAD00CBEAF4 /* Sources */,
+				E2BA1A5A1ED41BAD00CBEAF4 /* Frameworks */,
+				E2BA1A5B1ED41BAD00CBEAF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BA1A5F1ED41BAD00CBEAF4 /* PBXTargetDependency */,
+			);
+			name = RYNumberkeyboardTests;
+			productName = RYNumberkeyboardTests;
+			productReference = E2BA1A5D1ED41BAD00CBEAF4 /* RYNumberkeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2BA1A671ED41BAD00CBEAF4 /* RYNumberkeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BA1A771ED41BAD00CBEAF4 /* Build configuration list for PBXNativeTarget "RYNumberkeyboardUITests" */;
+			buildPhases = (
+				E2BA1A641ED41BAD00CBEAF4 /* Sources */,
+				E2BA1A651ED41BAD00CBEAF4 /* Frameworks */,
+				E2BA1A661ED41BAD00CBEAF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BA1A6A1ED41BAD00CBEAF4 /* PBXTargetDependency */,
+			);
+			name = RYNumberkeyboardUITests;
+			productName = RYNumberkeyboardUITests;
+			productReference = E2BA1A681ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2BA1A391ED41BAD00CBEAF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dp;
+				TargetAttributes = {
+					E2BA1A401ED41BAD00CBEAF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E2BA1A5C1ED41BAD00CBEAF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2BA1A401ED41BAD00CBEAF4;
+					};
+					E2BA1A671ED41BAD00CBEAF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2BA1A401ED41BAD00CBEAF4;
+					};
+				};
+			};
+			buildConfigurationList = E2BA1A3C1ED41BAD00CBEAF4 /* Build configuration list for PBXProject "RYNumberkeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2BA1A381ED41BAD00CBEAF4;
+			productRefGroup = E2BA1A421ED41BAD00CBEAF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2BA1A401ED41BAD00CBEAF4 /* RYNumberkeyboard */,
+				E2BA1A5C1ED41BAD00CBEAF4 /* RYNumberkeyboardTests */,
+				E2BA1A671ED41BAD00CBEAF4 /* RYNumberkeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2BA1A3F1ED41BAD00CBEAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BA1A571ED41BAD00CBEAF4 /* LaunchScreen.storyboard in Resources */,
+				E2BA1A811ED41BC800CBEAF4 /* RYNumbeKeyboard.bundle in Resources */,
+				E2BA1A831ED41BC800CBEAF4 /* RYNumberKeyboard.xib in Resources */,
+				E2BA1A541ED41BAD00CBEAF4 /* Assets.xcassets in Resources */,
+				E2BA1A4F1ED41BAD00CBEAF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA1A5B1ED41BAD00CBEAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA1A661ED41BAD00CBEAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2BA1A3D1ED41BAD00CBEAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BA1A841ED41BC800CBEAF4 /* UITextField+RYNumberKeyboard.m in Sources */,
+				E2BA1A4C1ED41BAD00CBEAF4 /* ViewController.m in Sources */,
+				E2BA1A491ED41BAD00CBEAF4 /* AppDelegate.m in Sources */,
+				E2BA1A521ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodeld in Sources */,
+				E2BA1A821ED41BC800CBEAF4 /* RYNumberKeyboard.m in Sources */,
+				E2BA1A461ED41BAD00CBEAF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA1A591ED41BAD00CBEAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BA1A621ED41BAD00CBEAF4 /* RYNumberkeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BA1A641ED41BAD00CBEAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BA1A6D1ED41BAD00CBEAF4 /* RYNumberkeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2BA1A5F1ED41BAD00CBEAF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BA1A401ED41BAD00CBEAF4 /* RYNumberkeyboard */;
+			targetProxy = E2BA1A5E1ED41BAD00CBEAF4 /* PBXContainerItemProxy */;
+		};
+		E2BA1A6A1ED41BAD00CBEAF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BA1A401ED41BAD00CBEAF4 /* RYNumberkeyboard */;
+			targetProxy = E2BA1A691ED41BAD00CBEAF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2BA1A4D1ED41BAD00CBEAF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BA1A4E1ED41BAD00CBEAF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2BA1A551ED41BAD00CBEAF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BA1A561ED41BAD00CBEAF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2BA1A6F1ED41BAD00CBEAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2BA1A701ED41BAD00CBEAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BA1A721ED41BAD00CBEAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYNumberkeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dp.RYNumberkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2BA1A731ED41BAD00CBEAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYNumberkeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dp.RYNumberkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2BA1A751ED41BAD00CBEAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYNumberkeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dp.RYNumberkeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYNumberkeyboard.app/RYNumberkeyboard";
+			};
+			name = Debug;
+		};
+		E2BA1A761ED41BAD00CBEAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RYNumberkeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dp.RYNumberkeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYNumberkeyboard.app/RYNumberkeyboard";
+			};
+			name = Release;
+		};
+		E2BA1A781ED41BAD00CBEAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYNumberkeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dp.RYNumberkeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RYNumberkeyboard;
+			};
+			name = Debug;
+		};
+		E2BA1A791ED41BAD00CBEAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RYNumberkeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dp.RYNumberkeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RYNumberkeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2BA1A3C1ED41BAD00CBEAF4 /* Build configuration list for PBXProject "RYNumberkeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BA1A6F1ED41BAD00CBEAF4 /* Debug */,
+				E2BA1A701ED41BAD00CBEAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BA1A711ED41BAD00CBEAF4 /* Build configuration list for PBXNativeTarget "RYNumberkeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BA1A721ED41BAD00CBEAF4 /* Debug */,
+				E2BA1A731ED41BAD00CBEAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2BA1A741ED41BAD00CBEAF4 /* Build configuration list for PBXNativeTarget "RYNumberkeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BA1A751ED41BAD00CBEAF4 /* Debug */,
+				E2BA1A761ED41BAD00CBEAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2BA1A771ED41BAD00CBEAF4 /* Build configuration list for PBXNativeTarget "RYNumberkeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BA1A781ED41BAD00CBEAF4 /* Debug */,
+				E2BA1A791ED41BAD00CBEAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2BA1A501ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2BA1A511ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodel */,
+			);
+			currentVersion = E2BA1A511ED41BAD00CBEAF4 /* RYNumberkeyboard.xcdatamodel */;
+			path = RYNumberkeyboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2BA1A391ED41BAD00CBEAF4 /* Project object */;
+}
