@@ -5,7 +5,7 @@
 #example
 #_textField=[[UITextField alloc]initWithFrame:CGRectMake(100, 100, 200, 30)];
 #_textField.delegate=self;
-# _textField.layer.borderWidth=1;
+#_textField.layer.borderWidth=1;
 #_textField.layer.borderColor=[UIColor grayColor].CGColor;
 #[self.view addSubview:_textField];
 #RYNumberKeyboard *tNumberKb = [[RYNumberKeyboard alloc] init];
