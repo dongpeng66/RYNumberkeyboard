@@ -1,14 +1,25 @@
-# RYNumberkeyboard
+# RYNumberKeyboard
 
-#直接把 RYNumberkeyboard,导入RYNumberkeyboard.h就可以用了 </br>
+`RYNumberKeyboard` 是一个数字相关键盘，目前有三种类型：整数键盘，浮点数键盘，身份证键盘。
 
-#example
-</br>
-_textField=[[UITextField alloc]initWithFrame:CGRectMake(100, 100, 200, 30)];</br>
-_textField.delegate=self;</br>
-_textField.layer.borderWidth=1;</br>
-_textField.layer.borderColor=[UIColor grayColor].CGColor;</br>
-[self.view addSubview:_textField];</br>
-RYNumberKeyboard *tNumberKb = [[RYNumberKeyboard alloc] init];</br>
-tNumberKb.textFiled = _textField;</br>
-_textField.inputView = tNumberKb;</br>
+# 使用方法
+
+```
+  #import "UITextField+RYNumberKeyboard.h"
+  
+  yourTextFiled.ry_inputType = RYIntInputType;       //数字键盘
+  yourTextFiled.ry_inputType = RYIDCardInputType;    //身份证键盘
+  yourTextFiled.ry_inputType = RYFloatInputType;     //浮点数键盘
+  
+  yourTextFiled.ry_interval = 4  //每隔4个数字输入一个空格
+  
+  或者
+  RYNumberKeyboard *tNumberKb = [[RYNumberKeyboard alloc] init];
+  tNumberKb.textFiled = _textField;
+  _textField.inputView = tNumberKb;
+```
+
+# 效果
+
+![RYNumberKeyboard](https://github.com/Resory/Images/blob/master/RYNumberKeyboard.gif)
+
